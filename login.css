@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body {
+  font-family: 'Inter', sans-serif;
+  background: url(https://entrackr.com/wp-content/uploads/2020/03/BIgbasket-Grofers.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-size: cover;
+}
+
+.login {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background-color: rgba(222, 219, 211, 0.3);
+  color: black;
+  width: 30rem;
+  height: 20rem;
+  border-radius: 10px;
+}
+
+.loginForm {
+  position: absolute;
+  margin: 20px;
+}
+
+.loginTitle {
+  color: black;
+  letter-spacing: 1px;
+}
+
+input[type='email'],
+input[type='password'] {
+  font-family: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: rgba(255, 255, 255, 0.2);
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  height: 1.3rem;
+  padding-left: 0.5rem;
+  color: black;
+}
+
+input[type='email']:focus,
+input[type='password']:focus {
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+}
+
+button[type='submit'] {
+  border: none;
+  height: 2rem;
+  width: 5rem;
+  border-radius: 20px;
+  outline: none;
+  background: rgba(1, 1, 1);
+  font-family: inherit;
+  letter-spacing: 1px;
+  color: white;
+}
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
